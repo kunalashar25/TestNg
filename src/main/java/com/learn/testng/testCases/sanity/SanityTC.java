@@ -1,4 +1,4 @@
-package com.testng.testCases.sanity;
+package com.learn.testng.testCases.sanity;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

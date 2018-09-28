@@ -1,4 +1,4 @@
-package com.testng.testCases.regression;
+package com.learn.testng.testCases.regression;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
