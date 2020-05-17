@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="TestNG">
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.learn.testng.cases.regression.Reg1"/>
+            <class name="com.learn.testng.cases.regression.Reg2"/>
+        </classes>
+    </test>
+
+    <test name="Smoke Tests">
+        <classes>
+            <class name="com.learn.testng.cases.smoke.Smoke1"/>
+            <class name="com.learn.testng.cases.smoke.Smoke2"/>
+        </classes>
+    </test>
+
+    <test name="Sanity Tests">
+        <classes>
+            <class name="com.learn.testng.cases.sanity.Sanity1"/>
+            <class name="com.learn.testng.cases.sanity.Sanity2"/>
+        </classes>
+    </test>
+</suite>

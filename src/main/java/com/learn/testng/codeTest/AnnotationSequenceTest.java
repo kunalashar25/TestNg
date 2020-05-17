@@ -24,79 +24,73 @@ public class AnnotationSequenceTest
 	@BeforeTest
 	public void beforeTest()
 	{
-		System.out.println("This is before test");
+		System.out.println("@BeforeTest");
 	}
 
 	@BeforeClass
 	public void beforeClass()
 	{
-		System.out.println("This is before class");
+		System.out.println("@BeforeClass");
 	}
 
 	@BeforeMethod
 	public void beforeMethod()
 	{
-		System.out.println("********************* \nThis is before method");
+		System.out.println("++++++++++ \n@BeforeMethod");
 	}
 
 	@BeforeSuite
 	public void beforeSuite()
 	{
-		System.out.println("This is before suite");
+		System.out.println("@BeforeSuite");
 	}
 
 	@BeforeGroups("Group1")
 	public void beforeGroup()
 	{
-		System.out.println("This is before group");
+		System.out.println("@BeforeGroup Group1");
 	}
 
 	@Test
 	public void test1()
 	{
-		System.out.println("This is test1");
-	}
-
-	@Test
-	public void test2()
-	{
-		System.out.println("This is test2");
+		System.out.println("@Test test1");
 	}
 
 	@Test(groups = "Group1")
-	public void test3()
+	public void test2()
 	{
-		System.out.println("This is test3");
+		System.out.println("@Test test2");
 	}
 
 	@AfterClass
 	public void afterClass()
 	{
-		System.out.println("This is after class");
+		System.out.println("@AfterClass");
 	}
 
 	@AfterMethod
 	public void afterMethod()
 	{
-		System.out.println("This is after method\n *********************");
+		System.out.println("@AfterMethod\n----------");
 	}
 
 	@AfterSuite
 	public void afterSuite()
 	{
-		System.out.println("This is after suite");
+		System.out.println("@AfterSuite");
 	}
 
 	@AfterTest
 	public void afterTest()
 	{
-		System.out.println("This is after test");
+		System.out.println("@AfterTest");
 	}
 
 	@AfterGroups("Group1")
 	public void afterGroup()
 	{
-		System.out.println("This is after group");
+		System.out.println("@AfterGroup Group1");
 	}
 
 }
