@@ -30,7 +30,7 @@ public class GenerateTestNG {
 
 		// creating new Suite
 		XmlSuite suite = new XmlSuite();
-		suite.setName("Dynamic TestNG");
+		suite.setName("Runtime TestNG");
 		suite.setThreadCount(5);
 		suite.setParallel(XmlSuite.ParallelMode.METHODS);
 
